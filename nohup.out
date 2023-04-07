@@ -1,0 +1,131 @@
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+March 31, 2023 - 21:27:31
+Django version 4.1.7, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:8001/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+March 31, 2023 - 21:28:48
+Django version 4.1.7, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:8001/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+March 31, 2023 - 21:31:52
+Django version 4.1.7, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:8001/
+Quit the server with CONTROL-C.
+[31/Mar/2023 21:32:08] "GET /todos/ HTTP/1.1" 200 3515
+[31/Mar/2023 21:34:06] "GET / HTTP/1.1" 302 0
+[31/Mar/2023 21:34:06] "GET /todos HTTP/1.1" 301 0
+[31/Mar/2023 21:34:06] "GET /todos/ HTTP/1.1" 200 3515
+[31/Mar/2023 21:34:07] "GET /static/css/style.css HTTP/1.1" 200 225
+Not Found: /favicon.ico
+[31/Mar/2023 21:34:08] "GET /favicon.ico HTTP/1.1" 404 2573
+[31/Mar/2023 21:34:43] "GET / HTTP/1.1" 302 0
+[31/Mar/2023 21:34:43] "GET / HTTP/1.1" 302 0
+[31/Mar/2023 21:34:43] "GET /todos HTTP/1.1" 301 0
+[31/Mar/2023 21:34:44] "GET /todos HTTP/1.1" 301 0
+[31/Mar/2023 21:34:44] "GET /todos/ HTTP/1.1" 200 3515
+[31/Mar/2023 21:34:44] "GET /todos/ HTTP/1.1" 200 3515
+[31/Mar/2023 21:38:05] "POST /todos/add/ HTTP/1.1" 302 0
+[31/Mar/2023 21:38:05] "GET /todos/ HTTP/1.1" 200 4102
+[31/Mar/2023 21:38:11] "GET /todos/23/delete HTTP/1.1" 302 0
+[31/Mar/2023 21:38:11] "GET /todos/ HTTP/1.1" 200 3515
+[31/Mar/2023 21:40:07] "GET / HTTP/1.1" 302 0
+[31/Mar/2023 21:40:07] "GET /todos HTTP/1.1" 301 0
+[31/Mar/2023 21:40:08] "GET /todos/ HTTP/1.1" 200 3515
+[31/Mar/2023 21:40:09] "GET / HTTP/1.1" 302 0
+[31/Mar/2023 21:40:10] "GET /todos HTTP/1.1" 301 0
+[31/Mar/2023 21:40:10] "GET /todos/ HTTP/1.1" 200 3515
+[31/Mar/2023 21:42:08] "GET /todos/ HTTP/1.1" 200 3515
+[31/Mar/2023 21:42:09] "GET /static/css/style.css HTTP/1.1" 304 0
+[31/Mar/2023 21:43:14,393] - Broken pipe from ('49.36.81.0', 39451)
+[31/Mar/2023 21:43:48] "GET / HTTP/1.1" 302 0
+[31/Mar/2023 21:43:49] "GET /todos HTTP/1.1" 301 0
+[31/Mar/2023 21:43:49] "GET / HTTP/1.1" 302 0
+[31/Mar/2023 21:43:49] "GET /todos/ HTTP/1.1" 200 3515
+[31/Mar/2023 21:43:50] "GET /todos HTTP/1.1" 301 0
+[31/Mar/2023 21:43:50] "GET /todos/ HTTP/1.1" 200 3515
+[31/Mar/2023 21:44:56] "GET / HTTP/1.1" 302 0
+[31/Mar/2023 21:44:57] "GET /todos HTTP/1.1" 301 0
+[31/Mar/2023 21:44:57] "GET /todos/ HTTP/1.1" 200 3515
+[31/Mar/2023 21:44:57] "GET /static/css/style.css HTTP/1.1" 200 225
+Not Found: /favicon.ico
+[31/Mar/2023 21:44:58] "GET /favicon.ico HTTP/1.1" 404 2573
+[31/Mar/2023 21:45:20] "GET /todos/2/delete HTTP/1.1" 302 0
+[31/Mar/2023 21:45:20] "GET /todos/ HTTP/1.1" 200 2923
+[31/Mar/2023 21:45:22] "GET /todos/3/delete HTTP/1.1" 302 0
+[31/Mar/2023 21:45:22] "GET /todos/ HTTP/1.1" 200 2328
+[31/Mar/2023 21:45:25] "GET /todos/ HTTP/1.1" 200 2328
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+April 03, 2023 - 16:55:39
+Django version 4.1.7, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:8001/
+Quit the server with CONTROL-C.
+[03/Apr/2023 16:55:44] "GET /todos/ HTTP/1.1" 200 2328
+[03/Apr/2023 16:55:48] "POST /todos/add/ HTTP/1.1" 302 0
+[03/Apr/2023 16:55:48] "GET /todos/ HTTP/1.1" 200 2918
+[03/Apr/2023 16:55:51] "POST /todos/add/ HTTP/1.1" 302 0
+[03/Apr/2023 16:55:51] "GET /todos/ HTTP/1.1" 200 3501
+[03/Apr/2023 16:55:54] "POST /todos/add/ HTTP/1.1" 302 0
+[03/Apr/2023 16:55:54] "GET /todos/ HTTP/1.1" 200 4088
+[03/Apr/2023 16:55:57] "POST /todos/24/update HTTP/1.1" 302 0
+[03/Apr/2023 16:55:57] "GET /todos/ HTTP/1.1" 200 4125
+[03/Apr/2023 16:56:02] "GET /todos/24/delete HTTP/1.1" 302 0
+[03/Apr/2023 16:56:02] "GET /todos/ HTTP/1.1" 200 3498
+Internal Server Error: /todos/add/
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/utils/datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/Projects/django-todo/todos/views.py", line 15, in add
+    title = request.POST['title']
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/utils/datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'title'
+[03/Apr/2023 16:58:33] "GET /todos/add/ HTTP/1.1" 500 65398
+Not Found: /todos/24/delete
+[03/Apr/2023 17:00:09] "GET /todos/24/delete HTTP/1.1" 404 2534
